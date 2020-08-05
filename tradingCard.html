@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A catalogue of the most popular cat breeds">
+    <link rel="stylesheet" href="tradingCard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Cat Trading Cards</title>
+</head>
+
+<body>
+    <main id="main-container" class="card">
+        <section id="image-back-button-container">
+            <button id="back-button"><i class="fa fa-long-arrow-left"></i></button><img
+                src="https://images.unsplash.com/photo-1534361960057-19889db9621e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+                alt="A fluffy dog">
+        </section>
+        <section class="dog-info">
+            <section id="dog-name">BINGO</i></section>
+            <section id="dog-bio-data">
+                <div class="dog breed"><span>BREED</span><br>Mixasaurus</div>
+                <div class="dog size"><span>SIZE</span><br>Small</div>
+                <div class="dog age"><span>AGE</span><br>2 Years, 7 Months</div>
+            </section>
+            <article id="dog-description">
+                This smart fella has it all-great looks, fantastic athleticism, and a bright mind to boot! Bingo is
+                described by his foster family as intelligent, playful, and a fast learner. He loves to show off his
+                shake-a-paw and high five skills and is very food-motivated so will learn new tricks quickly!
+            </article>
+        </section>
+        <section id="adopt-section">
+            <button id="adopt-button">Apply for adoption <i class="fa fa-long-arrow-right"></i></i></button>
+        </section>
+
+    </main>
+    <!-- <style>
+        @media only screen and (max-width: 600px) {
+            body {
+                width: 600px;
+                margin: 0px;
+            }
+
+            main {
+                text-align: center;
+                width: 600px;
+            }
+
+            #introduction {
+                color: #fff;
+                text-shadow: 0px 5px 5px #555;
+                display: inline-block;
+                width: 450px;
+                background-color: darkgray;
+                margin: 10px 10px 10px 10px;
+                box-shadow: 0px 5px 10px 0px gray;
+                font-family: 'Lobster', helvetica, arial;
+                border-radius: 30px;
+            }
+
+            #trading-cards {
+                text-align: center;
+                display: inline-block;
+                /* background-color: lightgrey; */
+                width: 400px;
+                height: auto;
+                margin: 10px 30px 10px 30px;
+                box-shadow: 0px 5px 10px 0px gray;
+                border-radius: 30px;
+                padding: 20px 0px 20px 0px;
+            }
+
+            img {
+                width: 100%;
+                height: 150px;
+                border-radius: 20px 0px 20px 0px;
+                box-shadow: 0px 5px 5px #555;
+            }
+
+            div#cards {
+                display: inline-block;
+                width: 300px;
+                height: auto;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                background-color: #999299;
+                box-shadow: 0px 5px 10px 0px gray;
+                border-radius: 20px;
+                padding: 20px;
+            }
+
+            figcaption {
+                color: #fff;
+                font-weight: bold;
+                text-shadow: 0px 5px 5px #555;
+                margin: 10px auto;
+                padding-left: 5px;
+                width: fit-content;
+                text-align: center;
+            }
+
+            p {
+                color: #fff;
+                font-weight: bold;
+                text-shadow: 0px 5px 5px #555;
+                border-left: 3px solid #fff;
+                text-align: left;
+                padding-left: 5px;
+            }
+
+            article {
+                color: #333;
+                text-shadow: 0px 1px 1px #333333;
+                text-align: left;
+                padding-bottom: 5px;
+                border-bottom: 3px solid #222;
+            }
+        }
+
+        @media only screen and (min-width: 600px) {
+            main {
+                text-align: center;
+            }
+
+            #introduction {
+                display: inline-block;
+                color: #fff;
+                text-shadow: 0px 5px 5px #555;
+                width: 700px;
+                background-color: darkgray;
+                margin: 10px 30px 10px 30px;
+                box-shadow: 0px 5px 10px 0px gray;
+                font-family: 'Lobster', helvetica, arial;
+                border-radius: 30px;
+            }
+
+            #trading-cards {
+                width: 600px;
+                text-align: center;
+                background-color: lightgrey;
+                height: auto;
+                margin: 10px 30px 10px 30px;
+                box-shadow: 0px 5px 10px 0px gray;
+                text-align: center;
+                border-radius: 30px;
+                text-align: center;
+                padding: 50px 0px 50px 0px;
+                display: inline-block;
+            }
+
+            img {
+                max-width: 100%;
+                height: 150px;
+                margin-top: 10px;
+                border-radius: 20px 0px 20px 0px;
+                box-shadow: 0px 5px 5px #555;
+            }
+
+            div#cards {
+                display: inline-block;
+                width: 300px;
+                height: 400px;
+                margin-bottom: 10px;
+                background-color: grey;
+                box-shadow: 0px 5px 10px 0px gray;
+                border-radius: 20px;
+            }
+
+            figcaption {
+                color: #fff;
+                font-weight: bold;
+                text-shadow: 0px 5px 5px #555;
+                margin: 10px auto;
+                padding-left: 5px;
+                width: fit-content;
+                text-align: center;
+            }
+
+            p {
+                color: #fff;
+                font-weight: bold;
+                text-shadow: 0px 5px 5px #555;
+                border-left: 3px solid #fff;
+                text-align: left;
+                padding-left: 5px;
+            }
+
+            article {
+                color: #333;
+                text-shadow: 0px 1px 1px #333333;
+                text-align: left;
+                padding-bottom: 5px;
+                border-bottom: 3px solid #222;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section id="catalogue-introduction">
+            <div id="introduction">
+                <h1>CAT TRADING CATALOGUE</h1>
+            </div>
+        </section>
+        <section id="trading-cards">
+            <div id="cards">
+                <figure><img
+                        src="https://vetstreet.brightspotcdn.com/dims4/default/303f54d/2147483647/thumbnail/645x380/quality/90/?url=https%3A%2F%2Fvetstreet-brightspot.s3.amazonaws.com%2F29%2Fb6%2Ff4a864144d09974dfe5bf0513e20%2FPersian-AP-V8HE5B-645sm3614.jpg"
+                        alt=""></figure>
+                <figcaption id="figure-description">A Persian Cat Breed</figcaption>
+                <p>DESCRIPTION</p>
+                <article>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni nostrum similique
+                    necessitatibus impedit ea ab, non enim optio nam possimus consectetur, officia aut dolore. Numquam
+                    quos facilis iste modi ipsam.</article>
+                <p>PRICE</p>
+                <article>$50</article>
+            </div>
+            <div id="cards">
+                <figure><img
+                        src="https://vetstreet.brightspotcdn.com/dims4/default/303f54d/2147483647/thumbnail/645x380/quality/90/?url=https%3A%2F%2Fvetstreet-brightspot.s3.amazonaws.com%2F29%2Fb6%2Ff4a864144d09974dfe5bf0513e20%2FPersian-AP-V8HE5B-645sm3614.jpg"
+                        alt=""></figure>
+                <figcaption id="figure-description">A Persian Cat Breed</figcaption>
+                <p>DESCRIPTION</p>
+                <article>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni nostrum similique
+                    necessitatibus impedit ea ab, non enim optio nam possimus consectetur, officia aut dolore. Numquam
+                    quos facilis iste modi ipsam.</article>
+            </div>
+        </section>
+    </main> -->
+
+</body>
+
+</html>

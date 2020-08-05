@@ -1,0 +1,126 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-container {
+    width: 320px;
+    border: 1px solid grey;
+    height: auto;
+    box-shadow: 0 0.3em 0.5em 0em grey;
+}
+
+#image-back-button-container {
+    position: relative;
+}
+
+#back-button {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    border-style: none;
+    background-color: transparent;
+    outline: none;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+}
+#back-button:hover{
+    background-color: #ba908d;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+.dog-info {
+    margin: 20px;
+    text-align: center;
+}
+
+#dog-name {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 1.6em;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+}
+
+#dog-bio-data {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.dog {
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    font-size: 0.875em;
+    font-family: 'Lobster', cursive;
+}
+
+.dog.breed {
+    border-right: 1px solid grey;
+    padding-right: 10px;
+    font-family: 'Lobster', cursive;
+}
+
+.dog.size {
+    border-right: 1px solid grey;
+    padding-right: 10px;
+}
+
+.dog span {
+    color: grey;
+    opacity: 0.6;
+    font-size: 0.8em;
+    font-family: 'Lobster', cursive;
+    margin: 3px 0px;
+}
+
+#dog-description {
+    text-align: left;
+    color: #666;
+    font-family: 'Lobster', cursive;
+    font-size: 0.9em;
+}
+
+#adopt-section {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1px solid grey;
+    box-shadow: 0 0em 0.5em grey;
+}
+
+#adopt-button {
+    display: flex;
+    align-items: center;
+    font-family: 'Lobster', cursive;
+    border-style: none;
+    background-color: transparent;
+    outline: none;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 1em;
+    color: #5DADE2;
+}
+
+#adopt-button:hover {
+    background-color: #EBF5FB;
+}
+
+i[class *="long-arrow-right"] {
+    margin-left: 15px;
+    width: 1.5em;
+}
+
+i[class *="long-arrow-left"] {
+    width: 1.5em;
+}
