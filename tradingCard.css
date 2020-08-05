@@ -1,4 +1,4 @@
-    html, body {
+        html, body {
         height: 100%;
     }
     body {
@@ -9,6 +9,7 @@
 
     #main-container {
         width: 320px;
+        height: auto;
         border: 1px solid grey;
         box-shadow: 0 0.3em 0.5em 0em grey;
     }
@@ -38,7 +39,7 @@
 
     img {
         width: 100%;
-        height: auto;
+        height: 280px;
     }
 
     .dog-info {
