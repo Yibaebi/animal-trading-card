@@ -1,4 +1,6 @@
-@media screen and (max-width: 400px){
+    html, body {
+        height: 100%;
+    }
     body {
         display: flex;
         justify-content: center;
@@ -127,4 +129,3 @@
     i[class *="long-arrow-left"] {
         width: 1.5em;
     }
-}
