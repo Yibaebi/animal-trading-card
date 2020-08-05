@@ -1,4 +1,4 @@
-        html, body {
+    html, body {
         height: 100%;
     }
     body {
@@ -42,6 +42,7 @@
         height: 280px;
     }
 
+@media screen and (min-width: 400px){
     .dog-info {
         margin: 20px;
         text-align: center;
@@ -96,6 +97,60 @@
         font-family: 'Lobster', cursive;
         font-size: 0.9em;
     }
+}
+@media screen and (max-width: 400px){
+    .dog-info {
+        margin: 20px;
+        text-align: center;
+    }
+
+    #dog-name {
+        text-align: left;
+        margin-bottom: 10px;
+        font-size: 1.6em;
+        font-weight: bold;
+        font-family: 'Lato', sans-serif;
+    }
+
+    #dog-bio-data {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid grey;
+        padding-bottom: 10px;
+        margin-bottom: 15px;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .dog {
+        color: black;
+        font-weight: bold;
+        text-align: left;
+        font-size: 0.875em;
+    }
+
+    .dog.breed {
+        border-right: 1px solid grey;
+        padding-right: 10px;
+    }
+
+    .dog.size {
+        border-right: 1px solid grey;
+        padding-right: 10px;
+    }
+
+    .dog span {
+        color: grey;
+        opacity: 0.6;
+        font-size: 0.8em;
+        margin: 3px 0px;
+    }
+
+    #dog-description {
+        text-align: left;
+        color: #666;
+        font-size: 0.9em;
+    }
+}
 
     #adopt-section {
         margin-top: 10px;
@@ -108,7 +163,7 @@
     #adopt-button {
         display: flex;
         align-items: center;
-        font-family: 'Lobster', cursive;
+        font-family: 'Lato', sans-serif;
         border-style: none;
         background-color: transparent;
         outline: none;
