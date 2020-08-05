@@ -1,4 +1,4 @@
-    html, body {
+      html, body {
         height: 100%;
     }
     body {
@@ -97,7 +97,7 @@
         font-family: 'Lobster', cursive;
         font-size: 0.9em;
     }
-        #adopt-section {
+    #adopt-section {
         margin-top: 10px;
         display: flex;
         justify-content: flex-end;
@@ -117,6 +117,7 @@
         font-size: 1em;
         color: #5DADE2;
     }
+    
 }
 @media screen and (max-width: 400px){
     .dog-info {
@@ -170,7 +171,6 @@
         color: #666;
         font-size: 0.9em;
     }
-
 
     #adopt-section {
         margin-top: 10px;
