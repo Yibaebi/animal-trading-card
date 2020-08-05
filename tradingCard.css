@@ -97,6 +97,26 @@
         font-family: 'Lobster', cursive;
         font-size: 0.9em;
     }
+        #adopt-section {
+        margin-top: 10px;
+        display: flex;
+        justify-content: flex-end;
+        border-top: 1px solid grey;
+        box-shadow: 0 0em 0.5em grey;
+    }
+
+    #adopt-button {
+        display: flex;
+        align-items: center;
+        font-family: 'Lobster', cursive;
+        border-style: none;
+        background-color: transparent;
+        outline: none;
+        padding: 5px;
+        font-weight: bold;
+        font-size: 1em;
+        color: #5DADE2;
+    }
 }
 @media screen and (max-width: 400px){
     .dog-info {
@@ -150,7 +170,7 @@
         color: #666;
         font-size: 0.9em;
     }
-}
+
 
     #adopt-section {
         margin-top: 10px;
@@ -172,7 +192,7 @@
         font-size: 1em;
         color: #5DADE2;
     }
-
+}
     #adopt-button:hover {
         background-color: #EBF5FB;
     }
